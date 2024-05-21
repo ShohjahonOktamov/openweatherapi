@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="cityInput" placeholder="Enter the city name">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="error" class="message">City does not exist!</div>
+
+    <div id="weather" class="weather-details">
+      <h1 id="city">City Name</h1>
+      <div class="weather-info">
+        <div>
+          <h2 id="condition">Weather</h2>
+          <h2 id="temperature" class="info-item">Temperature</h2>
+          <h2 id="humidity" class="info-item">Humidity</h2>
+          <h2 id="wind" class="info-item">Wind Speed</h2>
+        </div>
+        <img id="icon"></img>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
